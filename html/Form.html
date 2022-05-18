@@ -1,0 +1,62 @@
+<form name = "users_information">
+    <hr>
+    <label for="user_firstname">First name:</label>
+    <input type ="text" name = "first-name" id ="user_firstname">
+    <br>
+    <br>
+    <label for="user_lastname">Last name:</label>
+    <input type ="text" name ="last-name" id ="user_lastname">
+    <hr>
+    <!--Buttons:
+    1.Button tag
+    2.Input tag button type
+    Створення кнопок за допомогою тегу <button></button>, також можна створювати кнопки за допомогою
+    двох тегів <label><input>.
+    --->
+    <button type="button_tag">Button tag</button>
+    <button type="input_tag">Input tag button type</button>
+
+    <hr>
+    <!-- Choose your country
+    За допомогою тегу select створюю випадаючий список з варіантами(які записую в кожен option)
+    введена інформація буде зберігатися у  users_country-->
+
+    <select name="users_country" id="country">
+        <option value="Ukraine">Ukraine</option>
+        <option value="Germany">Germany</option>
+        <option value="Spain">Spain</option>
+        <option value="Polish">Polish</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+    </select>
+    <hr>
+    <!--Radio input
+    1.Male
+    2.Female
+    Введення даних через вибір тільки одного з них за допомогою типу radio.
+    --->
+    <label>
+        <input type="radio" name="male-female" value="male">Male
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="male-female" value="female">Female
+    </label>
+
+    <hr>
+    <!--Checkboxes
+    1.I have a bike
+    2.I have a car
+    Введення даних через вибір декількох з них за допомогою типу checkbox.
+    --->
+    <label>
+        <input type="checkbox" name="bike" value = "bike">I have a bike
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="car" value = "car">I have a car
+    </label>
+    <hr>
+</form>
+
+   
